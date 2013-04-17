@@ -73,7 +73,7 @@
 
     <!-- Compilation dependencies -->
     <android.version>4.0.1.2</android.version>
-    <android-support.version>r7</android-support.version>
+    <android-support.version>r11</android-support.version>
     <fest.android.version>1.0.4</fest.android.version>
 
     <!-- Sample dependencies -->
@@ -86,6 +86,14 @@
     <robolectric.version>2.0-alpha-2</robolectric.version>
   </properties>
 
+  <!-- Used for pulling r11 of com.google.android:support-v4 -->
+  <repositories>
+      <repository>
+          <id>ldsmobile</id>
+          <url>http://www.ldsmobile.org/nexus/content/repositories/public/</url>
+      </repository>
+  </repositories>
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
