@@ -767,7 +767,7 @@ public class SearchView extends LinearLayout implements CollapsibleActionView {
                 .getDimensionPixelSize(R.dimen.abs__search_view_preferred_width);
     }
 
-    private void updateViewsVisibility(final boolean collapsed) {
+    public void updateViewsVisibility(final boolean collapsed) {
         mIconified = collapsed;
         // Visibility of views that are visible when collapsed
         final int visCollapsed = collapsed ? VISIBLE : GONE;
