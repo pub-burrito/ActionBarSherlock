@@ -29,7 +29,7 @@
   <scm>
     <url>https://github.com/JakeWharton/ActionBarSherlock/</url>
     <connection>scm:git:git://github.com/JakeWharton/ActionBarSherlock.git</connection>
-    <developerConnection>scm:git:git@github.com:JakeWharton/ActionBarSherlock.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com:pub_burrito/ActionBarSherlock.git</developerConnection>
     <tag>4.3.0</tag>
   </scm>
 
